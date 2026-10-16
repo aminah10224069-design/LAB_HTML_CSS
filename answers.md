@@ -4,8 +4,8 @@
 1. Selector: `nav a.active`, Pseudo-class: `:hover`, Property: `color`, Value: `red`, Deklarasi: `color: red;`
 2. Block: `p`, `li`, `h2`. Inline: `span`, `a`, `strong`.
 3. Paragraf A dan B (karena berada di dalam elemen `.box`).
-4. Berwarna **merah** (`red`), karena ID selector (`#title`) memiliki nilai *specificity* paling tinggi dibanding class dan type selector.
-5. Tag `<p>` dan `<strong>` tumpang tindih (*overlapping/interlocking*). Penulisan yang benar: `<p>Hello <strong>world</strong></p>`.
+4. Berwarna **merah** (`red`), karena ID selector (`#title`) memiliki nilai *specificity* paling tinggi.
+5. Tag `<p>` dan `<strong>` tumpang tindih. Penulisan yang benar: `<p>Hello <strong>world</strong></p>`.
 
 ## Bagian 3: Prediksi Selector Golf
 P1. (a) green, (b) orange, (c) blue.
@@ -43,5 +43,5 @@ Pengecekan DevTools: Content: 300px, Padding: 16px, Border: 1px, Margin: 24px.
 | 8 | 45 | Link tanpa teks deskriptif | Informasi navigasi tidak jelas | Diberi teks tujuan link yang jelas |
 
 Refleksi:
-1. Menulis HTML semantik membuat struktur web jauh lebih rapi, mudah diakses (*accessible*), dan lebih mudah di-styling dengan CSS.
-2. Memisahkan CSS dari HTML sangat membantu dalam menjaga kebersihan kode dan mempermudah perubahan tema warna secara global.
+1. Menulis HTML semantik membuat struktur web jauh lebih rapi dan mudah diakses.
+2. Memisahkan CSS dari HTML sangat membantu mempermudah perubahan tema warna.
