@@ -1,0 +1,74 @@
+/* 1. Type Selector */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9f4;
+    color: #2c3e50;
+}
+
+/* 2. ID Selector */
+#top-header {
+    background: linear-gradient(135deg, #0d5c3a, #168050);
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* 3. Grouping Selector */
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+/* 4. Descendant Selector */
+main section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+/* 5. Class Selector */
+.content-box {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #0d5c3a;
+    border-bottom: 2px solid #168050;
+    padding-bottom: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+table, th, td {
+    border: 1px solid #dcdcdc;
+}
+
+th {
+    background-color: #0d5c3a;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+/* 6. Pseudo-class Selector */
+tr:nth-child(even) {
+    background-color: #f9fbf9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #168050;
+}
