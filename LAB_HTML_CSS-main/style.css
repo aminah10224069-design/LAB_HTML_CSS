@@ -1,0 +1,175 @@
+/* Reset Dasar */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f9f4;
+  color: #2c3e50;
+}
+
+/* HEADER & NAVIGASI */
+#top-header {
+  background: linear-gradient(135deg, #0d5c3a, #168050);
+  color: #ffffff;
+  padding: 30px 20px 15px 20px;
+  text-align: center;
+}
+
+#top-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+}
+
+#top-header p {
+  font-style: italic;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul li a {
+  color: #0d5c3a;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 8px;
+}
+
+nav ul li a:hover {
+  color: #168050;
+  text-decoration: underline;
+}
+
+/* MAIN & CONTAINER */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* KOTAK CARD UTAMA (BIAR RAPI SEPERTI DI GAMBAR TEMANMU) */
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #d8d7de;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.card h2 {
+  color: #0d5c3a;
+  border-bottom: 2px solid #0d5c3a;
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin-bottom: 12px;
+}
+
+/* TABEL */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #0d5c3a;
+  color: white;
+}
+
+/* FASILITAS */
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.logo-box {
+  background-color: #e0e0e0;
+  color: #757575;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+/* AGENDA */
+article {
+  background: #fafafa;
+  border-left: 4px solid #0d5c3a;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+article h3 {
+  color: #0d5c3a;
+}
+
+/* FORM KONTAK */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0d5c3a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+button:hover {
+  background-color: #168050;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
